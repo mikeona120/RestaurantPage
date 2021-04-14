@@ -6,8 +6,21 @@ body {
   white-space:pre-wrap;
  }
 
+ h1 {
+  font-size: 50px;
+
+ }
+
+ p {
+  font-size: 20px;
+
+ }
+
  #container {
   text-align: center;
+  background-color: rgba(255, 255, 0, 0.774);
+  margin-left: 10%;
+  margin-right: 10%;
  }
 
  #navBar {
@@ -16,8 +29,8 @@ body {
  }
 
  .tab {
-   padding-left: 10%;
-   padding-right: 10%;
+   padding-left: 5%;
+   padding-right: 5%;
    padding-top: 2.5%;
    padding-bottom: 2.5%;
    background-color:green;
@@ -30,13 +43,3 @@ body {
 }
 
 
-
- h1 {
-  font-size: 50px;
-  background-color: rgba(255, 255, 0, 0.774);
- }
-
- p {
-  font-size: 20px;
-  background-color: rgba(255, 255, 0, 0.774);
- }
