@@ -1,1 +1,42 @@
+body {
+  background-image: url("coffee_beans_2-wallpaper-2560x1440.jpg");
+  background-repeat: no-repeat;
+  background-size: fill;
+  color: black;
+  white-space:pre-wrap;
+ }
 
+ #container {
+  text-align: center;
+ }
+
+ #navBar {
+  display: flex;
+  justify-content: center;
+ }
+
+ .tab {
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 2.5%;
+   padding-bottom: 2.5%;
+   background-color:green;
+   font-size: 30px;
+ }
+
+ .tab:hover {
+  background-color:red;
+  transition: 0.2s;
+}
+
+
+
+ h1 {
+  font-size: 50px;
+  background-color: rgba(255, 255, 0, 0.774);
+ }
+
+ p {
+  font-size: 20px;
+  background-color: rgba(255, 255, 0, 0.774);
+ }

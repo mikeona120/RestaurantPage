@@ -7,17 +7,17 @@ const navBar = () => {
     
     const homeTab = document.createElement('div');
     homeTab.id = "homeTab";
-    homeTab.class = "tab";
+    homeTab.classList = "tab";
     homeTab.innerHTML = "Home";
 
     const menuTab = document.createElement('div');
     menuTab.id = "menuTab";
-    menuTab.class = "tab";
+    menuTab.classList = "tab";
     menuTab.innerHTML = "Menu";
 
     const contactTab = document.createElement('div');
     contactTab.id = "contactTab";
-    contactTab.class = "tab";
+    contactTab.classList = "tab";
     contactTab.innerHTML = "Contact";
 
     navBar.appendChild(homeTab);
@@ -32,14 +32,14 @@ const navBar = () => {
 const home = () => {
     
     const header = document.createElement("h1");      
-    header.append("Hi Welcome to Chili's");
+    header.innerHTML= "Starbeans Café";
 
     const img = document.createElement("img");      
-    img.src= "https://pbs.twimg.com/profile_images/1333865953600397319/6QdVDXpS_400x400.jpg";
-    img.alt = "Not Wendy's logo";
+    img.src= "https://www.spriters-resource.com/resources/sheets/1/901.png?updated=1460953132";
+    img.alt = "Chili's logo";
 
     const para = document.createElement("p");      
-    para.innerHTML = "Fresh food. Even fresher Chili.";
+    para.innerHTML = "Your beans. Our blends.";
 
     
     const container = document.createElement('div');
@@ -57,13 +57,22 @@ const home = () => {
 
 
 const menu = () => {
+    
+
+    const header = document.createElement("h1");      
+    header.innerHTML= "Blends";
+
+    const para = document.createElement("p");      
+    para.innerHTML = "At Starbeans we brew only the finest of beans our guests provide. \n Select from our blends below.";
+
+
+
     const container = document.createElement('div');
     container.id = "container";
 
-    const test = document.createElement('div');
-    test.innerHTML = "Menu goes here";
-
-    container.appendChild(test);
+    container.appendChild(header);
+    //container.appendChild(img);
+    container.appendChild(para);
 
     const content = document.getElementById("content");
     content.appendChild(container);
@@ -83,7 +92,7 @@ const contact = () => {
     const content = document.getElementById("content");
     content.appendChild(container);
     
-    console.log("menu Function");
+    console.log("contact Function");
 }
 
 const clear = () => {
